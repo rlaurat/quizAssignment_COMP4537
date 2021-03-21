@@ -1,0 +1,39 @@
+body {
+    padding: 5%;
+    height: 100%;
+}
+
+label {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+button {
+    margin: 1%;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.incorrect {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+#page-wrap {
+    min-height: 100%;
+    margin-bottom: -142px;
+}
+
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer, #page-wrap:after {
+    height: 142px;
+}

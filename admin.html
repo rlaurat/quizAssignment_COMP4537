@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Quiz Editor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+    <script src="js/question.js"></script>
+    <script src="js/admin.js"></script>
+
+    <div id="page-wrap">
+        <h1>Admin Page</h1>
+        <input id="quiz-title" class="form-control form-control-lg" type="text" placeholder="Quiz Title">
+        <button id="new-title" class="btn btn-primary" onclick="saveQuizTitle()">Save Quiz Title</button>
+    </div>
+
+    <footer class="site-footer">
+        <button id="new-question" class="btn btn-success" onclick="createNewQuestionEntry()">Create New Question</button>
+        <br>
+        <a href="index.html"><button class="btn btn-secondary">Return to Home</button></a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="student-quiz-title"></h1>
+    <form id="quiz"></form>
+
+    <a href="index.html"><button class="btn btn-secondary">Return to Home</button></a>
+    <button id="submit" type="submit" class="btn btn-primary" style="display: none" onclick="checkAnswers()">Submit</button>
+    <br><br>
+    <h5 id="result" style="display: none"></h5>
+
+    <script src="js/question.js"></script>
+    <script src="js/student.js"></script>
+</body>
+</html>        

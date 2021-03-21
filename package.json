@@ -1,0 +1,14 @@
+{
+  "name": "quizassignment_comp4537",
+  "version": "1.0.0",
+  "description": "individual assignment for COMP 4537 - Internet Software Architecture",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
